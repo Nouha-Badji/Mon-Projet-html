@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header><div align="left">
+		<img src="hcc.png" height="100" width="100" align="">
+		</div> </header>
+<div class="container">
+  <form action="">
+
+    <label for="nm">Nom</label>
+    <input type="text" id="nm" name="prenom" placeholder="Nom...">
+
+    <label for="pnm">Prénom</label>
+    <input type="text" id="pnm" name="prenom" placeholder="Prénom..">
+
+    <label for="country">Pays</label>
+    <select id="country" name="country">
+      <option value="senegal">Sénégal</option>
+      <option value="mali">Mali</option>
+      <option value="cotedivoire">Côte d'Ivoire</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="écrire ici" style="height:200px"></textarea>
+
+    <input type="submit" value="Envoyer">
+
+  </form>
+</div>
+</body>
+</html>
